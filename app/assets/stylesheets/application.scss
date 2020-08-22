@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+	font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif" ;
+}
+
+img{
+	width: 100px ;
+	height: 100px;
+	margin-top: 14px ;
+}
+
+.header-content{
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper{
+	max-width: 1100px ;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 2.0em;
+	margin-top: 64px ;
+
+}
+.main-nav li{
+	margin-left: 36px;
+}
+.top-content{
+	text-align: center;
+	margin-top: 10%;
+}
+.top-content h3{
+	font-size: 5rem;
+	font-family: 'Philosopher', serif;
+}
+.big-bg{
+	background-image: url();
+	background-size: cover;
+	background-position: center top;
+
+}

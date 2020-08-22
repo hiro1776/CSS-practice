@@ -1,7 +1,23 @@
-<div class="top-image">
-	<h3>Top</h3>
+<header>
+	<div class="big-bg">
+	<header class="header-content wrapper">
+		<div class="logo"><%= image_tag "logo.jpg"  %></div>
+		<nav>
+			<ul class="main-nav">
+				<li class="item"><%= link_to "NEWS" %></li>
+				<li class="item"><%= link_to "CONTACT" %></li>
+				<li class="item"><%= link_to "MENU" %></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="top-content">
+	<h3>We'll Make Your Day</h3>
 	<p>オシャレなカフェで癒されてみませんか？　無添加の食材で体の中からリフレッシュ。</p>
-	<div class="menu-button"><%= link_to "メニューを見る", web_cafes_menu_path %></div>
+	<div class="menu-button">
+		<%= link_to "メニューを見る", web_cafes_menu_path, class: "btn btn-primary" %>
+	</div>
+</div>
 </div>
 
 
